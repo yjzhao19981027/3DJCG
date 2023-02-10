@@ -12,17 +12,17 @@ assert TORCH_VERSION >= [1, 13], "Requires PyTorch >= 1.13"
 
 
 if __name__ == "__main__":
-    version = "0.1.2"
+    version = "0.1.0"
 
     print(f"Building {PROJECT_NAME}-{version}")
 
     setup(
         name=PROJECT_NAME,
         version=version,
-        author="Ming Yang",
+        author="Rui Zheng",
         author_email="ymviv@qq.com",
-        url=f"https://github.com/vivym/{PROJECT_NAME}",
-        download_url=f"https://github.com/vivym/{PROJECT_NAME}/tags",
+        url=f"https://github.com/yjzhao19981027/{PROJECT_NAME}",
+        download_url=f"https://github.com/yjzhao19981027/{PROJECT_NAME}/tags",
         description=DESCRIPTION,
         long_description=Path("README.md").read_text(),
         long_description_content_type="text/markdown",
