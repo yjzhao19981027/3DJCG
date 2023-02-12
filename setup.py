@@ -20,7 +20,7 @@ if __name__ == "__main__":
         name=PROJECT_NAME,
         version=version,
         author="Rui Zheng",
-        author_email="ymviv@qq.com",
+        author_email="1156486807@qq.com",
         url=f"https://github.com/yjzhao19981027/{PROJECT_NAME}",
         download_url=f"https://github.com/yjzhao19981027/{PROJECT_NAME}/tags",
         description=DESCRIPTION,
